@@ -14,3 +14,27 @@ Guide Questions
      - The columns that describe customers are CustomerName and Region.
 3. Which columns represent transactions?
      - The columns that represent transactions are OrderID, OrderDate, Product, Quantity, and SalesAmount.
+
+
+PART 2
+
+1. Why must dimension tables contain unique keys?
+2. What problems occur if duplicates exist in DimCustomer?
+
+
+PART 3
+
+Guide Questions
+1. What is a primary key?
+2. Why is CustomerID a foreign key in FactSales?
+
+PART 4
+
+1. Why should relationships flow from dimension to fact?
+2. What happens if the relationship is Many-to-Many?
+
+PART 5
+
+1. Did sales aggregate correctly per customer?
+2. What would happen if relationships were missing?
+
