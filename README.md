@@ -19,22 +19,45 @@ Guide Questions
 PART 2
 
 1. Why must dimension tables contain unique keys?
+   - Dimension tables must contain unique keys so each record can be identified distinctly
 2. What problems occur if duplicates exist in DimCustomer?
-
+   - If duplicates exist in DimCustomer, aggregations and relationships can produce incorrect results.
 
 PART 3
 
 Guide Questions
 1. What is a primary key?
+   - A primary key is a column that uniquely identifies each record in a table.
 2. Why is CustomerID a foreign key in FactSales?
+   - CustomerID is a foreign key in FactSales to link each sale to a specific customer.
 
 PART 4
 
 1. Why should relationships flow from dimension to fact?
+   - Relationships should flow from dimension to fact to ensure proper filtering and aggregation.
 2. What happens if the relationship is Many-to-Many?
+   - If relationships were missing, totals would not match customers correctly.
 
 PART 5
 
 1. Did sales aggregate correctly per customer?
+   - Yes, if relationships are properly set, Power BI will automatically group and sum the SalesAmount per CustomerName.
 2. What would happen if relationships were missing?
+   - If relationships were missing, totals would not match customers correctly.
 
+
+Introduction to DAX
+
+1. What is a DAX measure?
+   - A DAX measure is a calculation evaluated dynamically in visuals.
+2. Difference between SUM and AVERAGE?
+   - SUM adds values together, while AVERAGE calculates their mean.
+3. Why use measures instead of calculated columns?
+   - Measures are preferred over calculated columns because they are dynamic and use less memory.
+
+DAX Function
+
+1. What is time intelligence in DAX?
+2. Why is a date table required?
+3. How does PREVIOUSMONTH help analyze trends?
+4. What insights can YTD Sales provide?
