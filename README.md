@@ -58,6 +58,10 @@ Introduction to DAX
 DAX Function
 
 1. What is time intelligence in DAX?
+   - Time intelligence in DAX allows calculations based on dates, like YTD, MTD, or comparisons over periods.
 2. Why is a date table required?
-3. How does PREVIOUSMONTH help analyze trends?
-4. What insights can YTD Sales provide?
+   - A date table is required to properly perform time-based calculations.
+5. How does PREVIOUSMONTH help analyze trends?
+   - PREVIOUSMONTH helps analyze trends by comparing values to the prior month.
+7. What insights can YTD Sales provide?
+    - YTD Sales provides insight into total sales accumulated since the start of the year.
